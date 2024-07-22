@@ -2,6 +2,7 @@ import React from 'react';
 import Header from '../components/Header';
 import MeetingList from '../components/MeetingList';
 import MeetingForm from '../components/MeetingForm';
+import Sidebar from '../components/Sidebar'; // Import the Sidebar component
 import './dashboard.css'; // Import CSS for styling
 
 const Dashboard = () => {
