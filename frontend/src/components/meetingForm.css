@@ -1,0 +1,27 @@
+.meeting-form {
+    display: flex;
+    flex-direction: column;
+    margin: 16px;
+    padding: 16px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+  }
+  
+  .meeting-form label {
+    margin-bottom: 8px;
+  }
+  
+  .meeting-form input {
+    margin-bottom: 16px;
+    padding: 8px;
+    border: 1px solid #ccc;
+  }
+  
+  .meeting-form button {
+    padding: 12px;
+    background-color: var(--primary-color);
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
