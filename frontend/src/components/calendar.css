@@ -1,0 +1,10 @@
+.calendar {
+    border: 1px solid #ccc;
+    padding: 16px;
+    background-color: #fff;
+  }
+  
+  .calendar h2 {
+    font-size: 24px;
+  }
+  
