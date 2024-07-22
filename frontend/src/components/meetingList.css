@@ -1,0 +1,21 @@
+.meeting-list {
+    margin: 16px;
+    padding: 16px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+  }
+  
+  .meeting-list h2 {
+    font-size: 24px;
+  }
+  
+  .meeting-list ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .meeting-list li {
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+  }
+  
