@@ -1,27 +1,24 @@
 import React from 'react';
-import Header from '../components/Header';
-import MeetingList from '../components/MeetingList';
-import MeetingForm from '../components/MeetingForm';
-import Sidebar from '../components/Sidebar'; // Import the Sidebar component
-import './dashboard.css'; // Import CSS for styling
+import './dashboard.css';
 
-const Dashboard = () => {
-  const meetings = [
-    // Sample data
-    { id: 1, title: 'Project Kickoff', date: '2024-07-20', time: '10:00', participants: ['example@example.com'] },
-    { id: 2, title: 'Sprint Review', date: '2024-07-25', time: '14:00', participants: ['example@example.com'] },
-  ];
-
+function Dashboard() {
   return (
     <div className="dashboard">
-      <Header />
-      <Sidebar />
-      <main className="main-content">
-        <MeetingForm />
-        <MeetingList meetings={meetings} />
-      </main>
+      <h1>Dashboard</h1>
+      <div className="card">
+        <h3>Project Kickoff</h3>
+        <p>Date: 2024-07-20</p>
+        <p>Time: 10:00</p>
+        <p>Participants: example@example.com</p>
+      </div>
+      <div className="card">
+        <h3>Sprint Review</h3>
+        <p>Date: 2024-07-25</p>
+        <p>Time: 14:00</p>
+        <p>Participants: example@example.com</p>
+      </div>
     </div>
   );
-};
+}
 
 export default Dashboard;
